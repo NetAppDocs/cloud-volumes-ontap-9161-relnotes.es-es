@@ -1,0 +1,47 @@
+---
+indexpage:
+  title: Notas de la versión de Cloud Volumes ONTAP 9.16.1
+  summary: Estas notas de la versión describen nuevas características, limitaciones
+    y problemas conocidos de Cloud Volumes ONTAP 9.16.1.
+  keywords: RN, CVO, release notes Cloud Volumes ONTAP
+  lead: Estas notas de la versión describen nuevas características, limitaciones y
+    problemas conocidos de Cloud Volumes ONTAP 9.16.1.
+  tiles:
+  - title: Empezar
+    links:
+    - title: Qué hay de nuevo
+      url: reference-new.html
+    - title: Descripción general de la licencia
+      url: concept-licensing.html
+  - title: Servicios web de Amazon
+    links:
+    - title: Configuraciones compatibles
+      url: reference-configs-aws.html
+    - title: Límites de almacenamiento
+      url: reference-limits-aws.html
+    - title: Limitaciones
+      url: reference-limitations-aws.html
+  - title: Google Cloud
+    links:
+    - title: Configuraciones compatibles
+      url: reference-configs-gcp.html
+    - title: Límites de almacenamiento
+      url: reference-limits-gcp.html
+    - title: Limitaciones
+      url: reference-limitations-gcp.html
+  - title: Microsoft Azure
+    links:
+    - title: Configuraciones compatibles
+      url: reference-configs-azure.html
+    - title: Límites de almacenamiento
+      url: reference-limits-azure.html
+    - title: Limitaciones
+      url: reference-limitations-azure.html
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog de BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Seminarios web sobre la nube
+      url: https://bluexp.netapp.com/events

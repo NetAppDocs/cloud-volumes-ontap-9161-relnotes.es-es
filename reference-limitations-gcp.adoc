@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-gcp.html 
+keywords: limitations, google cloud platform, gcp, psc, private service connect 
+summary: Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o que no interoperan correctamente con él. Revise estas limitaciones cuidadosamente. 
+---
+= Limitaciones conocidas de Cloud Volumes ONTAP en Google Cloud
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las siguientes limitaciones conocidas son específicas de Cloud Volumes ONTAP en Google Cloud Platform.  Asegúrese de revisar tambiénlink:reference-limitations.html["Limitaciones de Cloud Volumes ONTAP en todos los proveedores de nube"] .
+
+
+
+== Limitación con la duplicación de paquetes
+
+https://cloud.google.com/vpc/docs/packet-mirroring["Duplicación de paquetes"^]debe estar deshabilitado en la VPC de Google Cloud en la que implementa Cloud Volumes ONTAP.
+
+Cloud Volumes ONTAP no puede funcionar correctamente si la duplicación de paquetes está habilitada.
+
+
+
+== Limitaciones de la conexión del servicio privado de Google
+
+Si se apalanca https://cloud.google.com/vpc/docs/private-service-connect["Conexión al servicio privado de Google"^] Dentro de la VPC en la que está implementando Cloud Volumes ONTAP , deberá implementar registros DNS que reenvíen el tráfico a los requeridos https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["Puntos finales de la API de BlueXP"^] .
+
+Actualmente, la clasificación de datos de Cloud Volumes ONTAP en un depósito de Google Cloud Storage no es compatible con Private Service Connect.
