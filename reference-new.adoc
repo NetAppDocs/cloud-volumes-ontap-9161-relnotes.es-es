@@ -20,6 +20,22 @@ En las últimas versiones de BlueXP también se introducen características y me
 
 
 
+== 9.16.1 P7 (9 de octubre de 2025)
+
+El parche 9.16.1 P7 ya se puede implementar y actualizar para Cloud Volumes ONTAP en Azure y Google Cloud. Sin embargo, esta versión no está disponible para su implementación y actualización en AWS. La NetApp Console le solicitará que actualice sus sistemas existentes a esta versión de parche.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P7["Ver la lista de errores corregidos en el parche P7"^] (Se requiere iniciar sesión en el sitio de soporte de NetApp ).
+
+
+
+== 9.16.1 P6 (9 de octubre de 2025)
+
+El parche 9.16.1 P6 ya se puede implementar y actualizar para Cloud Volumes ONTAP en Azure y Google Cloud. Sin embargo, esta versión no está disponible para su implementación y actualización en AWS. La NetApp Console le solicitará que actualice sus sistemas existentes a esta versión de parche.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P6["Ver la lista de errores corregidos en el parche P6"^] (Se requiere iniciar sesión en el sitio de soporte de NetApp ).
+
+
+
 == 9.16.1 P5 (28 de julio de 2025)
 
 El parche 9.16.1 P5 ya se puede implementar y actualizar para Cloud Volumes ONTAP en Azure y Google Cloud. Sin embargo, esta versión no está disponible para su implementación y actualización en AWS. BlueXP le solicitará que actualice sus sistemas a esta versión.
