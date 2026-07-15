@@ -102,7 +102,6 @@
   <block id="98ade5346ada08656e0c7b517b695d0f" category="paragraph">Cada licencia de Cloud Volumes ONTAP admite diferentes tipos de instancias EC2.  Para su comodidad, la siguiente tabla muestra la vCPU, la RAM y el ancho de banda para cada tipo de instancia compatible.<block ref="7fe5ce03f92ccda8dcb0aa0fab836a1f" category="inline-link-rx"></block> .</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="paragraph">Cloud Volumes ONTAP puede ejecutarse en una instancia EC2 reservada o bajo demanda.  No se admiten soluciones que utilizan otros tipos de instancias.</block>
   <block id="c7d741925ef81824617c6a2975104e27" category="inline-link">Informe técnico 4383 de NetApp : Caracterización del rendimiento de Cloud Volumes ONTAP en Amazon Web Services con cargas de trabajo de aplicaciones</block>
-  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">Los anchos de banda que se muestran en la tabla a continuación coinciden con los límites documentados de AWS para cada tipo de instancia.  Estos límites no se alinean completamente con lo que Cloud Volumes ONTAP puede proporcionar.  Para conocer el rendimiento esperado, consulte<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block> .</block>
   <block id="794df3791a8c800841516007427a2aa3" category="cell">Licencia</block>
   <block id="4a7243646d30fc1e81eca2df9826cc03" category="cell">Instancia compatible</block>
   <block id="5d56dbd20d9ee1ab8a722ff12e331953" category="cell">CPU virtual</block>
@@ -885,4 +884,5 @@
   <block id="7921842512546dcc2b6113d7636eb5b0" category="paragraph">El parche Cloud Volumes ONTAP 9.16.1 P12 ya está disponible para actualización para todos los proveedores de cloud. La consola te pedirá que actualices tus sistemas existentes a esta versión del parche.</block>
   <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">Ver la lista de errores corregidos en el parche P12</block>
   <block id="3eb4c2a1aa053b1bc1ac0f0197a04e1f" category="paragraph"><block ref="e9182f1c0f87f3aabe0d9590748d2e3a" category="inline-link-macro-rx"></block> (NetApp se requiere inicio de sesión en Support Site).</block>
+  <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">Los anchos de banda mostrados en la siguiente tabla coinciden con los límites documentados de AWS para cada tipo de instancia. Estos límites no coinciden completamente con lo que Cloud Volumes ONTAP puede proporcionar. Para el rendimiento esperado, consulta<block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>.</block>
 </blocks>
